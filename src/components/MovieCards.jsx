@@ -1,4 +1,5 @@
 import "../css/MovieCard.css"
+import myImage from '../images/johnwick.jpg';
 
 function MovieCards({movie})
 {
@@ -10,7 +11,7 @@ function onFavoriteClick()
     return(
         <div className="movie-card">
             <div className="movie-poster">
-                <img src="{movie.url}" alt={movie.title} />
+                <img src={myImage} alt={movie.title} />
                 <div className="movie-overlay">
                     <button className="favorite-btn" onClick={onFavoriteClick}>
                      ❤️

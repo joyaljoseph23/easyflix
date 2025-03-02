@@ -10,6 +10,7 @@
   .navbar-brand {
     font-size: 1.5rem;
     font-weight: bold;
+  
   }
   
   .navbar-links {
@@ -22,6 +23,7 @@
     padding: 0.5rem 1rem;
     border-radius: 4px;
     transition: background-color 0.2s;
+    color: red;
   }
   
   .nav-link:hover {
@@ -35,8 +37,11 @@
   
     .navbar-brand {
       font-size: 1.2rem;
+      
     }
-  
+    #title{
+        color:red !important;
+    }
     .navbar-links {
       gap: 1rem;
     }
